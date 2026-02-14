@@ -1,50 +1,57 @@
-# Welcome to your Expo app 👋
+# React Native Weather App 🌤️
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern, beautiful **Weather Application** built with **React Native**, **Expo**, **Clerk** for authentication, **NativeWind** (Tailwind CSS for React Native), and a **free weather API** (e.g., OpenWeatherMap, WeatherAPI.com, etc.).
 
-## Get started
+This project follows a full tutorial approach — perfect for learning modern React Native development in 2025+.
 
-1. Install dependencies
+[![Expo](https://img.shields.io/badge/Expo-000000?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev)
+[![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactnative.dev)
+[![NativeWind](https://img.shields.io/badge/NativeWind-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://www.nativewind.dev)
+[![Clerk](https://img.shields.io/badge/Clerk-6C47FF?style=for-the-badge&logo=clerk&logoColor=white)](https://clerk.com)
 
-   ```bash
-   npm install
-   ```
+## ✨ Features
 
-2. Start the app
+- 🔐 **User Authentication** with Clerk (Sign in, Sign up, Google/Apple login support)
+- 🌍 **Current Weather** + **Hourly & Daily Forecast**
+- 📍 **Location-based weather** (using device location via Expo Location)
+- 🎨 **Beautiful UI** styled with NativeWind (Tailwind CSS)
+- 🌙 **Dark / Light mode** support
+- 🔄 **Real-time refresh** & error handling
+- 📱 **Cross-platform** — iOS, Android (and web preview via Expo)
+- ⚡ **Fast development** with Expo & hot reloading
 
-   ```bash
-   npx expo start
-   ```
+## 🛠️ Tech Stack
 
-In the output, you'll find options to open the app in a
+| Technology       | Purpose                              | Link                                      |
+|------------------|--------------------------------------|-------------------------------------------|
+| React Native     | Mobile framework                     | https://reactnative.dev                   |
+| Expo             | Development toolchain & SDK          | https://expo.dev                          |
+| Clerk            | Authentication & user management     | https://clerk.com                         |
+| NativeWind       | Tailwind CSS for React Native        | https://www.nativewind.dev                |
+| Expo Location    | Access device location               | https://docs.expo.dev/versions/latest/sdk/location/ |
+| Axios / Fetch    | API requests                         | —                                         |
+| Free Weather API | Weather data (e.g. OpenWeatherMap)   | https://openweathermap.org/api            |
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📸 Screenshots
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+(Add 3–5 screenshots here later — you can upload them to the repo and link like this:)
 
-## Get a fresh project
+![Home Screen Light](screenshots/home-light.png)  
+![Forecast Screen Dark](screenshots/forecast-dark.png)  
+![Login with Clerk](screenshots/clerk-login.png)
 
-When you're ready, run:
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Node.js ≥ 18
+- Yarn or npm
+- Expo CLI: `npm install -g expo-cli`
+- Expo Go app on your phone (for quick testing)
+- Accounts: Clerk.dev + Weather API key
+
+### 1. Clone the repository
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/YOUR_USERNAME/weather-app-rn.git
+cd weather-app-rn
